@@ -1,0 +1,16 @@
+2024-06-24 17:16:13.874 [info] Extension host with pid 6599 started
+2024-06-24 17:16:13.906 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-24 17:16:13.921 [info] Lock '/home/shivako/.vscode-server/data/User/workspaceStorage/2e354c2c7977c07a43cf68d166c1d516/vscode.lock': Lock acquired.
+2024-06-24 17:16:13.928 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-24 17:16:13.928 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-24 17:16:14.141 [info] Eager extensions activated
+2024-06-24 17:16:14.141 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 17:16:14.142 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 17:16:15.377 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-06-24 17:16:15.378 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-24 17:16:22.281 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-06-24 17:16:22.281 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-chrome'
+2024-06-24 17:16:22.495 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-06-24 17:23:11.733 [info] Extension host terminating: received terminate message from renderer
+2024-06-24 17:23:11.736 [info] Lock '/home/shivako/.vscode-server/data/User/workspaceStorage/2e354c2c7977c07a43cf68d166c1d516/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-06-24 17:23:11.768 [info] Extension host with pid 6599 exiting with code 0

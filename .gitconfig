@@ -1,0 +1,11 @@
+[user]
+	email = CodeAko@outlook.com
+	name = AKO
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false
+[core]
+	editor = code --wait

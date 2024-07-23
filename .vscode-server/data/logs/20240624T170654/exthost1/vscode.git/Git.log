@@ -1,0 +1,22 @@
+2024-06-24 17:06:56.797 [info] Log level: Info
+2024-06-24 17:06:56.797 [info] Validating found git in: "git"
+2024-06-24 17:06:56.797 [info] Using git "2.45.2" from "git"
+2024-06-24 17:06:56.797 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-24 17:06:56.803 [info] > git rev-parse --git-dir --git-common-dir [113ms]
+2024-06-24 17:06:56.815 [info] Open repository: /home/shivako/GitTest
+2024-06-24 17:06:56.908 [info] > git rev-parse --show-toplevel [87ms]
+2024-06-24 17:06:56.909 [info] > git config --get commit.template [89ms]
+2024-06-24 17:06:56.922 [info] > git rev-parse --show-toplevel [11ms]
+2024-06-24 17:06:56.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-06-24 17:06:56.951 [info] > git rev-parse --show-toplevel [10ms]
+2024-06-24 17:06:56.968 [info] > git status -z -uall [5ms]
+2024-06-24 17:06:56.978 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-06-24 17:06:56.985 [info] > git config --get commit.template [6ms]
+2024-06-24 17:06:56.986 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-06-24 17:06:56.992 [info] > git diff --name-status -z --diff-filter=ADMR 3cdf21340596f1ca9ce8a21416add4e5028124a7...refs/remotes/origin/main [4ms]
+2024-06-24 17:06:56.993 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-24 17:06:56.997 [info] > git status -z -uall [2ms]
+2024-06-24 17:06:57.408 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-24 17:06:57.559 [info] > git show --textconv :htmlboilerplate/index.html [2ms]
+2024-06-24 17:06:57.560 [info] > git ls-files --stage -- /home/shivako/GitTest/htmlboilerplate/index.html [1ms]
+2024-06-24 17:06:57.563 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]

@@ -1,0 +1,41 @@
+2024-06-17 18:01:06.931 [info] Log level: Info
+2024-06-17 18:01:06.931 [info] Validating found git in: "git"
+2024-06-17 18:01:06.931 [info] Using git "2.45.2" from "git"
+2024-06-17 18:01:06.931 [info] > git rev-parse --show-toplevel [4ms]
+2024-06-17 18:01:06.932 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-06-17 18:01:06.950 [info] Open repository: /home/shivako/GitTest
+2024-06-17 18:01:06.972 [info] > git config --get commit.template [10ms]
+2024-06-17 18:01:06.973 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-06-17 18:01:06.976 [warning] ENOENT: no such file or directory, open '/home/shivako/GitTest/.git/refs/remotes/origin/main'
+2024-06-17 18:01:06.977 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-06-17 18:01:06.982 [info] > git status -z -uall [3ms]
+2024-06-17 18:01:07.023 [info] > git merge-base refs/heads/main refs/remotes/origin/main [35ms]
+2024-06-17 18:01:07.029 [info] > git config --get commit.template [30ms]
+2024-06-17 18:01:07.031 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-06-17 18:01:07.042 [info] > git diff --name-status -z --diff-filter=ADMR 8e5489e547ed0b00a4669b0f7eff06b9d43c899c...refs/remotes/origin/main [8ms]
+2024-06-17 18:01:07.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2024-06-17 18:01:07.081 [warning] ENOENT: no such file or directory, open '/home/shivako/GitTest/.git/refs/remotes/origin/main'
+2024-06-17 18:01:07.082 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-06-17 18:01:07.086 [info] > git status -z -uall [2ms]
+2024-06-17 18:01:07.549 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-17 18:01:31.196 [info] > git config --get commit.template [4ms]
+2024-06-17 18:01:31.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-17 18:01:31.200 [warning] ENOENT: no such file or directory, open '/home/shivako/GitTest/.git/refs/remotes/origin/main'
+2024-06-17 18:01:31.201 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-06-17 18:01:31.204 [info] > git status -z -uall [1ms]
+2024-06-17 18:01:31.592 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
+2024-06-17 18:01:31.593 [info] > git ls-files --stage -- /home/shivako/GitTest/.git/COMMIT_EDITMSG [1ms]
+2024-06-17 18:01:31.690 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-17 18:01:36.212 [info] > git config --get commit.template [3ms]
+2024-06-17 18:01:36.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-17 18:01:36.216 [warning] ENOENT: no such file or directory, open '/home/shivako/GitTest/.git/refs/remotes/origin/main'
+2024-06-17 18:01:36.216 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-06-17 18:01:36.219 [info] > git status -z -uall [1ms]
+2024-06-17 18:01:39.024 [info] > git show --textconv :index.html [3ms]
+2024-06-17 18:01:39.026 [info] > git ls-files --stage -- /home/shivako/GitTest/index.html [3ms]
+2024-06-17 18:01:39.029 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2024-06-17 18:01:52.251 [info] > git config --get commit.template [3ms]
+2024-06-17 18:01:52.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-06-17 18:01:52.253 [warning] ENOENT: no such file or directory, open '/home/shivako/GitTest/.git/refs/remotes/origin/main'
+2024-06-17 18:01:52.254 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-06-17 18:01:52.257 [info] > git status -z -uall [1ms]
