@@ -1,1 +1,6 @@
 <pattern>
+.bash_history
+.vscode-remote-containers/
+.vscode-server/
+.wget-hsts
+odin-links-and-images/gitignore
