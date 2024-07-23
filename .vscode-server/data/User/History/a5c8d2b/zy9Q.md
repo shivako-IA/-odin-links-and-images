@@ -1,2 +1,0 @@
-# GitTest
-¡Hello Odín!
