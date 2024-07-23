@@ -1,0 +1,126 @@
+2024-07-17 13:51:40.966 [info] Extension host with pid 13956 started
+2024-07-17 13:51:40.995 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-17 13:51:41.014 [info] Lock '/home/shivako/.vscode-server/data/User/workspaceStorage/ef306fa7b67221029c16a61765662320/vscode.lock': Lock acquired.
+2024-07-17 13:51:41.189 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-17 13:51:41.216 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-17 13:51:41.216 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-17 13:51:41.379 [info] Eager extensions activated
+2024-07-17 13:51:41.379 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-17 13:51:41.379 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-17 13:51:41.714 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-17 13:51:41.714 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-17 13:51:41.990 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-17 13:51:41.990 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-17 13:51:41.990 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-17 13:51:42.347 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-07-17 13:52:11.892 [info] Extension host terminating: received terminate message from renderer
+2024-07-17 13:52:11.892 [info] Lock '/home/shivako/.vscode-server/data/User/workspaceStorage/ef306fa7b67221029c16a61765662320/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-07-17 13:52:11.926 [error] Canceled: Canceled
+	at new I (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:146:34990)
+	at S.U (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:153:6023)
+	at z.<computed>.F.charCodeAt.T.CharCode.DollarSign.z.<computed> (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:153:3107)
+	at f.g (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203861)
+	at f.executeCommand (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203299)
+	at A.registerCommand.description (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:202623)
+	at f.h (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:204400)
+	at f.g (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203392)
+	at f.executeCommand (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203299)
+	at Object.executeCommand (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:166:23051)
+	at n.O [as value] (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:949496)
+	at r.B (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.C (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at r.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:968700)
+	at /home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:974724)
+	at c.<anonymous> (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:154:4048)
+	at c.dispose (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:154:4145)
+	at c.<anonymous> (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:951753)
+	at c.dispose (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:154:4145)
+	at d (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at m.eb (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:162:10039)
+	at /home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:162:7915
+	at Array.map (<anonymous>)
+	at m.$ (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:162:7902)
+	at m.terminate (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:162:8175)
+	at d.terminate (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:166:1513)
+	at i (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:179:10617)
+	at n.value (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:179:8585)
+	at r.B (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at f.z (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:17638)
+	at n.value (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:16019)
+	at r.B (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at m.acceptChunk (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:12248)
+	at n.value (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:11518)
+	at r.B (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.z (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:21458)
+	at o.acceptFrame (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:21264)
+	at n (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:19709)
+	at /home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:16636
+	at Socket.v (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:14266)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-07-17 13:52:11.935 [error] Canceled: Canceled
+	at new I (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:146:34990)
+	at S.U (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:153:6023)
+	at z.<computed>.F.charCodeAt.T.CharCode.DollarSign.z.<computed> (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:153:3107)
+	at f.g (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203861)
+	at f.executeCommand (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203299)
+	at A.registerCommand.description (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:202623)
+	at f.h (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:204400)
+	at f.g (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203392)
+	at f.executeCommand (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203299)
+	at Object.executeCommand (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:166:23051)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/github/dist/extension.js:2:322969)
+	at /home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/github/dist/extension.js:2:323928
+	at n.value (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1055238)
+	at r.B (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.C (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+	at r.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+	at Object.p [as dispose] (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:968700)
+	at /home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:974738
+	at Array.forEach (<anonymous>)
+	at f.dispose (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:974724)
+	at c.<anonymous> (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:154:4048)
+	at c.dispose (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:154:4145)
+	at c.<anonymous> (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:951753)
+	at c.dispose (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:154:4145)
+	at d (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at m.eb (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:162:10039)
+	at /home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:162:7915
+	at Array.map (<anonymous>)
+	at m.$ (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:162:7902)
+	at m.terminate (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:162:8175)
+	at d.terminate (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:166:1513)
+	at i (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:179:10617)
+	at n.value (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:179:8585)
+	at r.B (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at f.z (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:17638)
+	at n.value (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:16019)
+	at r.B (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at m.acceptChunk (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:12248)
+	at n.value (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:108:11518)
+	at r.B (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.z (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:21458)
+	at o.acceptFrame (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:21264)
+	at n (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:19709)
+	at /home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:16636
+	at Socket.v (/home/shivako/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:176:14266)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-07-17 13:52:11.937 [info] Extension host with pid 13956 exiting with code 0

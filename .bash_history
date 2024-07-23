@@ -483,3 +483,103 @@ git status
 ls
 touch hello_world.txt
 git status
+ls
+cd GitTest
+ls
+cd
+{     "command": "wt",;     "keys": "Ctrl+Shift+T"; }
+git --version
+mkdir repos
+cd repos/
+git clone git@github.com:shivako-IA/git_test.git
+cd
+cd git_test
+ls
+cd repos
+ls
+cd git_test
+git remote -v
+touch hello_world.txt
+git status
+git add hello_world.txt
+git status
+git commit -m "add hello_world-txt"
+git status
+git log
+code .
+git status
+git add README.md
+git status
+cd
+nano hello_word.txt
+git init
+git add . 
+git status
+cd repos
+git status
+cd hello_world.txt
+ls
+cd git_test
+ls
+code . 
+git add .
+git status
+git commit -m "Edit README.md and hello_world.txt"
+git status
+cd
+cd repos
+cd git_test
+ls
+git log
+clear
+cd
+reset 
+git log
+clear
+git push origin main 
+git push 
+git status
+clear
+cd repos
+ls
+cd git_test
+ls
+code .
+git status
+git add .
+git status
+git commit -m "Edit README.md"
+git status
+git push
+git status
+clear
+cd
+git config --global core.editor "code --wait"
+cd
+clear
+git remote -v
+cd repos 
+git remote -v
+cd git_test
+git remote -v
+cd
+clear
+code .
+ping 181.51.32.232
+ping 181.51.32.232 -t
+ping 181.51.32.232
+ls
+cd GitTest
+ls
+code . hello_woorld.txt 
+cd GitTest 
+git status
+git add
+cit commit
+git status
+git add htmlboilerplate/index.html
+git status
+git add .vscode/hello_woorld.txt 
+git commit 
+git status
+cd

@@ -1,0 +1,43 @@
+2024-07-17 13:51:41.408 [info] Log level: Info
+2024-07-17 13:51:41.408 [info] Validating found git in: "git"
+2024-07-17 13:51:41.408 [info] Using git "2.45.2" from "git"
+2024-07-17 13:51:41.419 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-17 13:51:41.422 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-07-17 13:51:41.439 [info] Open repository: /home/shivako/repos/git_test
+2024-07-17 13:51:41.476 [info] > git config --get commit.template [24ms]
+2024-07-17 13:51:41.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-17 13:51:41.483 [warning] ENOENT: no such file or directory, open '/home/shivako/repos/git_test/.git/refs/remotes/origin/main'
+2024-07-17 13:51:41.484 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-07-17 13:51:41.487 [info] > git status -z -uall [1ms]
+2024-07-17 13:51:41.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-07-17 13:51:41.502 [info] > git config --get commit.template [7ms]
+2024-07-17 13:51:41.502 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-17 13:51:41.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-07-17 13:51:41.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-17 13:51:41.511 [warning] ENOENT: no such file or directory, open '/home/shivako/repos/git_test/.git/refs/remotes/origin/main'
+2024-07-17 13:51:41.511 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-07-17 13:51:41.513 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-07-17 13:51:41.515 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-07-17 13:51:41.518 [info] > git status -z -uall [3ms]
+2024-07-17 13:51:41.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-17 13:51:41.525 [info] > git diff --name-status -z --diff-filter=ADMR 5727666f72a74113acf034b0b31eb54d311db685...refs/remotes/origin/main [8ms]
+2024-07-17 13:51:41.526 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-07-17 13:51:41.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-07-17 13:51:42.111 [info] > git check-ignore -v -z --stdin [127ms]
+2024-07-17 13:51:42.213 [info] > git show --textconv :README.md [90ms]
+2024-07-17 13:51:42.213 [info] > git ls-files --stage -- /home/shivako/repos/git_test/README.md [88ms]
+2024-07-17 13:51:42.217 [info] > git cat-file -s 38d9afc575a66a19875e16e31963a97b33ec69f7 [2ms]
+2024-07-17 13:51:43.045 [info] > git show --textconv :hello_world.txt [2ms]
+2024-07-17 13:51:43.046 [info] > git ls-files --stage -- /home/shivako/repos/git_test/hello_world.txt [2ms]
+2024-07-17 13:51:43.049 [info] > git cat-file -s aff3ad2ae200ba9d9bf47dc1c040978de71fa171 [2ms]
+2024-07-17 13:51:44.106 [info] > git show --textconv :README.md [2ms]
+2024-07-17 13:51:44.107 [info] > git ls-files --stage -- /home/shivako/repos/git_test/README.md [1ms]
+2024-07-17 13:51:44.109 [info] > git cat-file -s 38d9afc575a66a19875e16e31963a97b33ec69f7 [1ms]
+2024-07-17 13:52:10.395 [info] > git config --get commit.template [3ms]
+2024-07-17 13:52:10.395 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-17 13:52:10.397 [warning] ENOENT: no such file or directory, open '/home/shivako/repos/git_test/.git/refs/remotes/origin/main'
+2024-07-17 13:52:10.398 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-07-17 13:52:10.401 [info] > git status -z -uall [1ms]
+2024-07-17 13:52:10.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-07-17 13:52:10.410 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-17 13:52:10.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
