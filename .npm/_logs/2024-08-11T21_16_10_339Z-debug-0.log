@@ -1,0 +1,73 @@
+0 verbose cli /home/shivako/.nvm/versions/node/v22.5.1/bin/node /home/shivako/.nvm/versions/node/v22.5.1/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.5.1
+3 silly config load:file:/home/shivako/.nvm/versions/node/v22.5.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/shivako/.npmrc
+5 silly config load:file:/home/shivako/.nvm/versions/node/v22.5.1/etc/npmrc
+6 verbose title npm install sonner
+7 verbose argv "install" "sonner"
+8 verbose logfile logs-max:10 dir:/home/shivako/.npm/_logs/2024-08-11T21_16_10_339Z-
+9 verbose logfile /home/shivako/.npm/_logs/2024-08-11T21_16_10_339Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest sonner@*
+15 silly packumentCache full:https://registry.npmjs.org/sonner cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/sonner 462ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/sonner set size:undefined disposed:false
+18 silly fetch manifest react@^18.0.0
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 350ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+22 silly fetch manifest react-dom@^18.0.0
+23 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react-dom 197ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+26 silly placeDep ROOT sonner@1.5.0 OK for:  want: *
+27 silly placeDep ROOT react@18.3.1 OK for: sonner@1.5.0 want: ^18.0.0
+28 silly placeDep ROOT react-dom@18.3.1 OK for: sonner@1.5.0 want: ^18.0.0
+29 silly fetch manifest scheduler@^0.23.2
+30 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+31 silly fetch manifest loose-envify@^1.1.0
+32 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+33 silly fetch manifest loose-envify@^1.1.0
+34 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/scheduler 179ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/loose-envify 313ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/loose-envify 327ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+41 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.3.1 want: ^1.1.0
+42 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+43 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/js-tokens 102ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:undefined disposed:false
+46 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+47 silly placeDep ROOT scheduler@0.23.2 OK for: react-dom@18.3.1 want: ^0.23.2
+48 silly reify moves {}
+49 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+50 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+51 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.3.1.tgz. Extracting by manifest.
+52 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz. Extracting by manifest.
+53 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+54 silly tarball no local data for sonner@https://registry.npmjs.org/sonner/-/sonner-1.5.0.tgz. Extracting by manifest.
+55 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 127ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 127ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.3.1.tgz 135ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz 359ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/sonner/-/sonner-1.5.0.tgz 361ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz 595ms (cache miss)
+61 silly ADD node_modules/scheduler
+62 silly ADD node_modules/js-tokens
+63 silly ADD node_modules/loose-envify
+64 silly ADD node_modules/react-dom
+65 silly ADD node_modules/react
+66 silly ADD node_modules/sonner
+67 verbose cwd /home/shivako
+68 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+69 verbose node v22.5.1
+70 verbose npm  v10.8.2
+71 verbose exit 0
+72 info ok
